@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_amazon_clone/account.dart';
-import 'package:flutter_amazon_clone/cart.dart';
-import 'package:flutter_amazon_clone/dashboard.dart';
+// ignore: import_of_legacy_library_into_null_safe
+import './account.dart';
+import './cart.dart';
+// ignore: import_of_legacy_library_into_null_safe
+import './dashboard.dart';
 import 'package:flutter_svg/svg.dart';
-import './Home.dart';
+// ignore: import_of_legacy_library_into_null_safe
+import './home.dart';
 
 class AmazonClone extends StatefulWidget {
   const AmazonClone({Key? key}) : super(key: key);
